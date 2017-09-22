@@ -27,9 +27,9 @@ public static void main(String[] args) {
     Transaction t=session.beginTransaction();  
           
     Employee e1=new Employee();  
-    e1.setId(118);  
-    e1.setFirstName("sanjeev1");  
-    e1.setLastName("kumar");  
+    e1.setId(119);  
+    e1.setFirstName("Rajeev");  
+    e1.setLastName("Singh");  
       
     session.persist(e1);//persisting the object  
       

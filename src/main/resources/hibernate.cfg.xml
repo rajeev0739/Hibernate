@@ -5,32 +5,32 @@
   
 <hibernate-configuration>  
   
-<!--     <session-factory>  
-    Database connection settings
+    <session-factory>  
+    <!-- Database connection settings -->
         <property name="hbm2ddl.auto">update</property>  
    		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
         <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/test</property>
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.connection.password">root</property>
 
-        SQL dialect
+   <!--      SQL dialect -->
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
-        Specify session context
+    <!--     Specify session context -->
         <property name="hibernate.current_session_context_class">org.hibernate.context.internal.ThreadLocalSessionContext</property>
     	<mapping resource="employee.hbm.xml"/>  
-    	<mapping class="com.rajeev.annotated.persistent.Employee"/>
-    </session-factory>  -->
+    	<!-- <mapping class="com.rajeev.annotated.persistent.Employee"/> -->
+    </session-factory> 
     
-    <session-factory>  
+<!--     <session-factory>  
 		 <property name="hbm2ddl.auto">update</property>  
 		 
    		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
         <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/test</property>
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.connection.password">root</property>
-	<!-- SQL dialect -->
+	SQL dialect
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
 		<property name="hibernate.current_session_context_class">org.hibernate.context.internal.ThreadLocalSessionContext</property>    	
 		<mapping resource="user.hbm.xml"/>  
-   </session-factory>  
+   </session-factory>   -->
 </hibernate-configuration>  

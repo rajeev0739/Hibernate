@@ -4,7 +4,7 @@
  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-	<class name="com.rajeev.persistent.Employee" table="emp">
+	<class name="com.rajeev.annotated.persistent.Employee" table="emp">
 		<id name="id">
 			<generator class="assigned"></generator>
 		</id>
